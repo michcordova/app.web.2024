@@ -1,9 +1,14 @@
 {% extends "layouts/layouts.html" %}
-{% block tittle %}
-    {{ title }}
-{% endblock tittle %}
+
+{% block title %}
+    {{title}}
+{% endblock title %}
+
 
 {% block content %}
-    <h1> {{ title }}</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolore fugiat, sit unde provident dolorum! Perferendis dolorum corporis reiciendis autem beatae, unde cum, dignissimos aut rerum obcaecati, expedita provident placeat.</p>
+    <h1>{{title}}</h1>
+    <h2>{{content}}</h2>
+    <p>
+        Formar profesionistas competentes, innovadores y comprometidos, a través de un modelo educativo basado en competencias y con vinculación estrecha con los sectores productivos y sociales, contribuyendo al desarrollo sostenible de la región y del país.
+    </p>
 {% endblock content %}
